@@ -7,7 +7,7 @@ import ErrorModal from '../UI/ErrorModal';
 const AddUser = (props) => {
 
     // we will use useRef to get the entered value into the input
-    //  tag and manipulate this we can do this with useState
+    // tag and manipulate this we can do this with useState
     const nameInputRef = useRef();
     const ageInputRef = useRef();
 
